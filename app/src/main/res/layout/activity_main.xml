@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:text="Savol"
+        android:textSize="29sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/textViewSavol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/transparent"
+        android:hint="Javobni shu yerga kiriting"
+        app:hintTextColor="@color/hint"
+        app:counterTextColor="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:cursorColor="@color/black"
+        app:errorTextColor="@color/black"
+        app:boxStrokeErrorColor="@color/black"
+        app:prefixTextColor="@color/black"
+        app:suffixTextColor="@color/black"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/editText"
+            android:hint="Javobni shu yerga kiriting"
+            android:textColorHint="@color/hint"
+            android:background="@drawable/transparent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btn"
+        android:text="Tekshirish"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
